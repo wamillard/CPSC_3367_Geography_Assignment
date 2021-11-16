@@ -50,7 +50,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/country_description_margin_bottom"
-            android:text="country description"
             app:layout_constraintBottom_toTopOf="@+id/lesson_learned_button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/country_title_text" />

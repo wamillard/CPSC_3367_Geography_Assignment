@@ -4,7 +4,7 @@
     <string name="lesson_learned_label">Lección aprendida</string>
     <string name="lesson_completed_label">Lección completada</string>
     <string name="congrats_text">¡Felicidades! ¡Ahora disfruta de tu tiempo libre!</string>
-    <string name="country_bitmap">\@drawable/spain_bitmap</string>
-    <string name="ic_country">\@drawable/ic_spain</string>
     <string name="country_title_label">Spain</string>
+    <string name="country_description">Spain is a country mostly located in Europe. Its continental European territory is situated on the Iberian Peninsula. Its territory also includes two archipelagoes: the Canary Islands off the coast of Africa, and the Balearic Islands in the Mediterranean Sea. The African enclaves of Ceuta, Melilla, and Peñón de Vélez de la Gomera make Spain the only European country to have a physical border with an African country (Morocco).
+</string>
 </resources>

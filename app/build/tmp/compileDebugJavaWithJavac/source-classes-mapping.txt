@@ -1,8 +1,7 @@
-com/ualr/geography_lesson/databinding/ActivityMainBinding.java
- com.ualr.geography_lesson.databinding.ActivityMainBinding
 com/ualr/geography_lesson/BuildConfig.java
  com.ualr.geography_lesson.BuildConfig
-com/ualr/geography_lesson/databinding/LandscapeLayoutBinding.java
- com.ualr.geography_lesson.databinding.LandscapeLayoutBinding
+com/ualr/geography_lesson/databinding/ActivityMainBinding.java
+ com.ualr.geography_lesson.databinding.ActivityMainBinding
 com/ualr/geography_lesson/MainActivity.java
  com.ualr.geography_lesson.MainActivity
+ com.ualr.geography_lesson.MainActivity$1
