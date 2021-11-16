@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Geography Lesson</string>
+    <string name="lesson_learned_label">Lección aprendida</string>
+    <string name="lesson_completed_label">Lección completada</string>
+    <string name="congrats_text">¡Felicidades! ¡Ahora disfruta de tu tiempo libre!</string>
+    <string name="country_bitmap">\@drawable/spain_bitmap</string>
+    <string name="ic_country">\@drawable/ic_spain</string>
+    <string name="country_title_label">Spain</string>
 </resources>

@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Geography Lesson</string>
-    <string name="lesson_learnt_label">lesson learnt</string>
+    <string name="lesson_learned_label">Lesson Learned</string>
     <string name="congrats_text">Congratulations. Now, enjoy your free time.</string>
+    <string name="lesson_completed_label">Lesson Completed</string>
+    <string name="country_bitmap">\@drawable/usa_bitmap</string>
+    <string name="ic_country">\@drawable/ic_usa</string>
+    <string name="country_title_label">USA</string>
 </resources>
