@@ -16,13 +16,13 @@
     tools:context=".MainActivity">
 
         <Button
-            android:id="@+id/lesson_learnt_button"
+            android:id="@+id/lesson_learned_button"
             style="@style/AppTheme.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/btn_margin_top"
             android:backgroundTint="@color/colorAccent"
-            android:onClick="onLessonLearntClicked"
+            android:onClick="onLessonLearnedClicked"
             android:text="@string/lesson_learned_label"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/country_description_text"
@@ -32,7 +32,7 @@
             android:id="@+id/country_image"
             android:layout_width="@dimen/country_image_width"
             android:layout_height="@dimen/country_image_height"
-            android:src="@drawable/ic_usa"
+            android:src="@drawable/ic_country"
             app:layout_constraintDimensionRatio="H, 1:1"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,6 @@
             android:layout_width="@dimen/country_description_width"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/country_description_margin_start"
-            android:text="country description"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.25"
@@ -71,9 +70,10 @@
             android:layout_marginTop="@dimen/country_bitmap_margin_top"
             android:layout_marginEnd="@dimen/country_bitmap_margin_end"
             android:scaleType="fitEnd"
+            android:src="@drawable/country_bitmap"
             app:layout_constraintEnd_toStartOf="@+id/guideline"
             app:layout_constraintTop_toBottomOf="@+id/country_title_text"
-            app:srcCompat="@string/country_bitmap" />
+            app:srcCompat="@drawable/country_bitmap" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline"

@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.Guideline;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -30,6 +31,38 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final TextView countryTitleText;
 
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
+  public final Guideline guideline;
+
+  /**
+   * This binding is not available in all configurations.
+   * <p>
+   * Present:
+   * <ul>
+   *   <li>layout-land/</li>
+   * </ul>
+   *
+   * Absent:
+   * <ul>
+   *   <li>layout/</li>
+   * </ul>
+   */
+  @Nullable
+  public final ImageView imageView;
+
   @NonNull
   public final Button lessonLearnedButton;
 
@@ -38,12 +71,15 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
       @NonNull TextView countryDescriptionText, @NonNull ImageView countryImage,
-      @NonNull TextView countryTitleText, @NonNull Button lessonLearnedButton,
+      @NonNull TextView countryTitleText, @Nullable Guideline guideline,
+      @Nullable ImageView imageView, @NonNull Button lessonLearnedButton,
       @NonNull CoordinatorLayout rootLayout) {
     this.rootView = rootView;
     this.countryDescriptionText = countryDescriptionText;
     this.countryImage = countryImage;
     this.countryTitleText = countryTitleText;
+    this.guideline = guideline;
+    this.imageView = imageView;
     this.lessonLearnedButton = lessonLearnedButton;
     this.rootLayout = rootLayout;
   }
@@ -93,6 +129,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.guideline;
+      Guideline guideline = ViewBindings.findChildViewById(rootView, id);
+
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+
       id = R.id.lesson_learned_button;
       Button lessonLearnedButton = ViewBindings.findChildViewById(rootView, id);
       if (lessonLearnedButton == null) {
@@ -102,7 +144,7 @@ public final class ActivityMainBinding implements ViewBinding {
       CoordinatorLayout rootLayout = (CoordinatorLayout) rootView;
 
       return new ActivityMainBinding((CoordinatorLayout) rootView, countryDescriptionText,
-          countryImage, countryTitleText, lessonLearnedButton, rootLayout);
+          countryImage, countryTitleText, guideline, imageView, lessonLearnedButton, rootLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
