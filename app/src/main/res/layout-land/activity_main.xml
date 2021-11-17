@@ -21,9 +21,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/btn_margin_top"
-            android:backgroundTint="@color/colorAccent"
             android:onClick="onLessonLearnedClicked"
             android:text="@string/lesson_learned_label"
+            android:checkable="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/country_description_text"
             app:layout_constraintTop_toBottomOf="@+id/country_description_text" />

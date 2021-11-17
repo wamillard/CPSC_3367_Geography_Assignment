@@ -5,6 +5,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.snackbar.Snackbar;
 import com.ualr.geography_lesson.databinding.ActivityMainBinding;
 
 
@@ -45,9 +46,9 @@ public class MainActivity extends AppCompatActivity
 
     public void onLessonLearnedClicked()
     {
-//        Resources res= this.getResources();
+       this.mBinding.lessonLearnedButton.setText(R.string.lesson_completed_label);
 
-        this.mBinding.lessonLearnedButton.setText(R.string.lesson_completed_label);
+       Snackbar.make(this.mBinding.rootLayout, R.string.congrats_text, Snackbar.LENGTH_SHORT).show();
 
 
         return;

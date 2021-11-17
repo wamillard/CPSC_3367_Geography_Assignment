@@ -24,6 +24,7 @@
             style="@style/AppTheme.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checkable="true"
             android:onClick="onLessonLearnedClicked"
             android:text="@string/lesson_learned_label"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_main.xml.flat",
-        "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\layout-land\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\drawable_country_bitmap.jpg.flat",
         "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\drawable\\country_bitmap.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_main.xml.flat",
+        "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\layout-land\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -24,20 +24,20 @@
         "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\drawable-es_ic_country.xml.flat",
         "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\drawable-es\\ic_country.xml"
     },
     {
-        "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\drawable-es_country_bitmap.jpg.flat",
         "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\drawable-es\\country_bitmap.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",

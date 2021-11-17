@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\landscape_layout.xml",
-        "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\layout\\landscape_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\Asa-T\\Documents\\Android Studio\\CPSC_3367_Geography_Assignment\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
