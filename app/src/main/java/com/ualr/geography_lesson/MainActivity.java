@@ -1,19 +1,12 @@
 package com.ualr.geography_lesson;
 
-import androidx.annotation.ColorInt;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
-import android.content.res.ColorStateList;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.ualr.geography_lesson.databinding.ActivityMainBinding;
 
-import java.util.Locale;
 
 // TODO 3: Define the alternative resources needed to have different content and look n feel depending on the device language.
 // TODO 4: Get the description string value from resources
@@ -24,8 +17,6 @@ public class MainActivity extends AppCompatActivity
 
     private ActivityMainBinding mBinding;
 
-
-//    private String currLocale=new String(Locale.getDefault().getLanguage());
 
 
     @Override
@@ -47,17 +38,20 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+
     }
 
 
 
     public void onLessonLearnedClicked()
     {
-        Resources res= this.getResources();
-
-        this.mBinding.lessonLearnedButton.setBackgroundTintList(res.getColorStateList(R.color.colorBtnPressed));
+//        Resources res= this.getResources();
 
         this.mBinding.lessonLearnedButton.setText(R.string.lesson_completed_label);
+
+
+        return;
+
 
     }
 

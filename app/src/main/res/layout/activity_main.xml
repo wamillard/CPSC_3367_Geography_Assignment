@@ -18,6 +18,7 @@
         android:padding="@dimen/constraint_layout_padding"
         tools:context=".MainActivity">
 
+
         <Button
             android:id="@+id/lesson_learned_button"
             style="@style/AppTheme.Button"
@@ -35,7 +36,7 @@
             android:layout_width="@dimen/country_image_width"
             android:layout_height="@dimen/country_image_height"
             android:layout_marginBottom="@dimen/country_image_margin_bottom"
-            android:src="@drawable/ic_usa"
+            android:src="@drawable/ic_country"
             app:layout_constraintBottom_toTopOf="@+id/country_title_text"
             app:layout_constraintDimensionRatio="H, 1:1"
             app:layout_constraintEnd_toEndOf="parent"

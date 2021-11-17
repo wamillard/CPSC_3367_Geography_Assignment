@@ -36,14 +36,12 @@ public final class ActivityMainBinding implements ViewBinding {
    * <p>
    * Present:
    * <ul>
-   *   <li>layout-es-land/</li>
    *   <li>layout-land/</li>
    * </ul>
    *
    * Absent:
    * <ul>
    *   <li>layout/</li>
-   *   <li>layout-es-port/</li>
    * </ul>
    */
   @Nullable
@@ -54,14 +52,12 @@ public final class ActivityMainBinding implements ViewBinding {
    * <p>
    * Present:
    * <ul>
-   *   <li>layout-es-land/</li>
    *   <li>layout-land/</li>
    * </ul>
    *
    * Absent:
    * <ul>
    *   <li>layout/</li>
-   *   <li>layout-es-port/</li>
    * </ul>
    */
   @Nullable
